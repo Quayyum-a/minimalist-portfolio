@@ -1,0 +1,496 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="src/style.css">
+
+<nav class="site">
+  <div class="container nav-in">
+    <a class="wordmark" href="#home">Quayyum Ariyo</a>
+    <div class="navlinks" id="navLinks">
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navLinks">Menu</button>
+  </div>
+</nav>
+
+<div class="home" id="home">
+
+  <main class="container">
+
+    <section class="hero">
+      <h1 class="name">Quayyum Ariyo</h1>
+      <p class="role">Software Engineer &amp; Builder.</p>
+      <p class="statement">I build software — backend systems, APIs, and full-stack products. I&rsquo;ve led a super-app&rsquo;s mobile build, written banking APIs, and shipped a fintech platform. I care most about the parts users don&rsquo;t see: auth, data, payments, and the decisions that keep a product running.</p>
+
+      <a class="cur" href="#/work/papyr" aria-label="Currently building Papyr — read about the project">
+        <span class="cur-line">
+          <span class="dot" aria-hidden="true"></span>
+          <span class="cur-label">currently building</span>
+          <span class="cur-name">Papyr</span>
+        </span>
+        <span class="cur-note">a handwriting-first ledger for small businesses</span>
+      </a>
+
+      <div class="hero-meta">
+        <div class="socials">
+          <a class="soc" href="https://www.linkedin.com/in/quayyum-ariyo-81659337a/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a class="soc" href="https://github.com/Quayyum-a" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            GitHub
+          </a>
+          <a class="soc" href="https://www.instagram.com/quayyum_mustshine/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5.2"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg>
+            Instagram
+          </a>
+          <a class="soc" href="https://www.snapchat.com/add/iam_quayyum" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.206.793c.99 0 4.347.276 5.93 3.821.529 1.193.403 3.219.299 4.847l-.003.06c-.012.18-.022.345-.03.51.075.045.203.09.401.09.3-.016.659-.12 1.033-.301.165-.088.344-.104.464-.104.182 0 .359.029.509.09.45.149.734.479.734.838.015.449-.39.839-1.213 1.168-.089.029-.209.075-.344.119-.45.135-1.139.36-1.333.81-.09.224-.061.524.12.868l.015.015c.06.136 1.526 3.475 4.791 4.014.255.044.435.27.42.509 0 .075-.015.149-.045.225-.24.569-1.273.988-3.146 1.271-.059.091-.12.375-.164.57-.029.179-.074.36-.134.553-.076.271-.27.405-.555.405h-.03c-.135 0-.313-.031-.538-.074-.36-.075-.765-.135-1.273-.135-.3 0-.599.015-.913.074-.6.104-1.123.464-1.723.884-.853.599-1.826 1.288-3.294 1.288-.06 0-.119-.015-.18-.015h-.149c-1.468 0-2.427-.689-3.279-1.288-.599-.42-1.107-.779-1.707-.884-.314-.045-.629-.074-.928-.074-.509 0-.914.074-1.288.149-.225.044-.404.074-.539.074-.27 0-.464-.135-.54-.39-.061-.193-.105-.389-.135-.568-.044-.195-.104-.48-.164-.57-1.874-.284-2.906-.689-3.146-1.273-.03-.074-.046-.149-.046-.225-.014-.239.165-.464.42-.509 3.264-.539 4.73-3.879 4.791-4.014l.016-.015c.18-.344.209-.645.119-.868-.193-.45-.883-.675-1.332-.81-.135-.044-.256-.09-.344-.119-.824-.329-1.229-.719-1.214-1.168 0-.359.285-.689.735-.838.149-.061.326-.09.508-.09.119 0 .299.016.463.104.375.18.735.285 1.034.301.197 0 .326-.046.4-.09-.007-.165-.015-.33-.03-.51l-.003-.06c-.104-1.628-.229-3.654.3-4.847 1.582-3.545 4.939-3.821 5.929-3.821"/></svg>
+            Snapchat
+          </a>
+          <a class="soc" href="https://wa.me/2348066025051" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            WhatsApp
+          </a>
+          <a class="soc" href="mailto:quayyumariyo@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            quayyumariyo@gmail.com
+          </a>
+        </div>
+
+        <div class="surprise-zone">
+          <button class="surprise" id="surpriseBtn" type="button" aria-busy="false">
+            <span class="spark" aria-hidden="true">✦</span>
+            <span class="slabel">surprise me</span>
+          </button>
+          <p class="surprise-caption" id="surpriseCaption" aria-live="polite"></p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="sec" id="work">
+      <div class="sec-head rv"><span class="secno">01</span><h2 class="sec-label">Work</h2></div>
+      <p class="sec-intro rv">Five things worth looking at. Not everything I&rsquo;ve touched — the ones that show how I think and build.</p>
+      <div class="plist">
+        <a class="prow" href="#/work/papyr">
+          <span class="pnum">01</span>
+          <span class="pbody">
+            <span class="ptitle">Papyr</span>
+            <span class="ptag">A digital ledger for small businesses, built around handwriting.</span>
+            <span class="ptags">Product · Engineering · Offline-first</span>
+          </span>
+          <span class="parrow" aria-hidden="true">→</span>
+        </a>
+        <a class="prow" href="#/work/olakz">
+          <span class="pnum">02</span>
+          <span class="pbody">
+            <span class="ptitle">Olakz</span>
+            <span class="ptag">A multi-service mobile super-app — ride, food, market, and more.</span>
+            <span class="ptags">React Native · TypeScript · Product Engineering</span>
+          </span>
+          <span class="parrow" aria-hidden="true">→</span>
+        </a>
+        <a class="prow" href="#/work/semicolon">
+          <span class="pnum">03</span>
+          <span class="pbody">
+            <span class="ptitle">Semicolon</span>
+            <span class="ptag">Banking, rental, and full-stack engineering.</span>
+            <span class="ptags">Backend · APIs · Architecture</span>
+          </span>
+          <span class="parrow" aria-hidden="true">→</span>
+        </a>
+        <a class="prow" href="#/work/urbanfix">
+          <span class="pnum">04</span>
+          <span class="pbody">
+            <span class="ptitle">UrbanFix</span>
+            <span class="ptag">A service and repair platform, in the making.</span>
+            <span class="ptags">Product · Engineering</span>
+          </span>
+          <span class="parrow" aria-hidden="true">→</span>
+        </a>
+        <a class="prow" href="#/work/investnaija">
+          <span class="pnum">05</span>
+          <span class="pbody">
+            <span class="ptitle">InvestNaija</span>
+            <span class="ptag">A Nigerian fintech platform — banking, investments, crypto.</span>
+            <span class="ptags">Fintech · React · Node.js</span>
+          </span>
+          <span class="parrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="sec" id="experience">
+      <div class="sec-head rv"><span class="secno">02</span><h2 class="sec-label">Experience</h2></div>
+
+      <div class="elist">
+
+        <div class="erow rv">
+          <div class="eperiod">
+            <span>10/2025 – 05/2026</span>
+            <span>Lagos</span>
+          </div>
+          <div class="ebody">
+            <div class="erole"><span class="eco">Olakz</span><span class="erole-sub">Software Engineer · Mobile Engineering</span></div>
+            <p class="edesc">Led the mobile frontend build of a 10+ service super-app — architecture, UI system, navigation, API integrations, maps, auth, and state management.</p>
+            <details class="edetails">
+              <summary><span class="dx-open">+ details</span><span class="dx-close">- close</span></summary>
+              <div class="dx-wrap">
+                <ul>
+                  <li>Ride, marketplace, food, auto wash and mechanic, spare parts, airtime and data, transport hire — one codebase.</li>
+                  <li>Redux Toolkit and Zustand for state, React Navigation for structure, Google Maps and AirMap for location.</li>
+                  <li>Worked directly with backend engineers on endpoint design and performance.</li>
+                </ul>
+              </div>
+            </details>
+          </div>
+        </div>
+
+        <div class="erow rv">
+          <div class="eperiod">
+            <span>2025</span>
+            <span>Lagos</span>
+          </div>
+          <div class="ebody">
+            <div class="erole"><span class="eco">KonfirmTech Africa</span><span class="erole-sub">Backend Engineer</span></div>
+            <p class="edesc">Backend APIs for a property listing platform with map integrations — location-based search, user management, and database design for geolocation data.</p>
+            <details class="edetails">
+              <summary><span class="dx-open">+ details</span><span class="dx-close">- close</span></summary>
+              <div class="dx-wrap">
+                <ul>
+                  <li>Efficient query structures for property and geolocation retrieval.</li>
+                  <li>Architecture decisions focused on scalability, maintainability, and security.</li>
+                  <li>Code reviews, sprint planning, and agile delivery.</li>
+                </ul>
+              </div>
+            </details>
+          </div>
+        </div>
+
+        <div class="erow rv">
+          <div class="eperiod">
+            <span>2024 – 2025</span>
+            <span>Yaba, Lagos</span>
+          </div>
+          <div class="ebody">
+            <div class="erole"><span class="eco">Semicolon Africa</span><span class="erole-sub">Software Engineer · Backend</span></div>
+            <p class="edesc">Secure REST APIs for core banking workflows, a Spring Boot rental application with payments, and full-stack systems — built with TDD and CI/CD.</p>
+            <details class="edetails">
+              <summary><span class="dx-open">+ details</span><span class="dx-close">- close</span></summary>
+              <div class="dx-wrap">
+                <ul>
+                  <li>Lite Bank Platform — Node.js, NestJS, PostgreSQL, role-based access control, optimized queries.</li>
+                  <li>Rental Application — Java, Spring Boot, JWT auth, Paystack payments, Twilio and EmailJS notifications.</li>
+                  <li>Estate Gate Pass and Hotel Management systems — responsive full-stack with secure APIs.</li>
+                </ul>
+              </div>
+            </details>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="resume-link rv"><a href="https://user.uploads.dev/file/8882a812af25edc923a8330754f3247c.pdf" target="_blank" rel="noopener">View résumé →</a></p>
+    </section>
+
+    <section class="sec" id="things">
+      <div class="sec-head rv"><span class="secno">03</span><h2 class="sec-label">Things I work on</h2></div>
+      <div class="caps">
+        <div class="cap rv"><h3>Backend</h3><p>Java · Spring Boot · Node.js · NestJS · Python</p></div>
+        <div class="cap rv"><h3>Systems</h3><p>REST APIs · Authentication · PostgreSQL · MongoDB · Microservices</p></div>
+        <div class="cap rv"><h3>Product</h3><p>React · Next.js · React Native · TypeScript</p></div>
+        <div class="cap rv"><h3>Engineering</h3><p>Docker · Git · CI/CD · TDD · Clean Architecture</p></div>
+      </div>
+    </section>
+
+    <section class="sec" id="about">
+      <div class="sec-head rv"><span class="secno">04</span><h2 class="sec-label">About</h2></div>
+      <div class="about rv">
+        <p>I&rsquo;m a software engineer based in Lagos, Nigeria. I studied computer science at Yaba College of Technology and trained as an engineer at Semicolon Africa — but the real education has been shipping: a super-app&rsquo;s mobile build, banking APIs, a fintech platform, and the ledger product I&rsquo;m building on my own.</p>
+        <p>I like problems where the answer isn&rsquo;t a library — auth flows, offline sync, query performance, and the product decisions that shape the code. I&rsquo;m currently learning machine learning and AI engineering.</p>
+      </div>
+    </section>
+
+    <section class="sec contact-sec" id="contact">
+      <div class="sec-head rv"><span class="secno">05</span><h2 class="sec-label">Contact</h2></div>
+      <p class="contact-line rv">Got a product that needs an engineer? I&rsquo;m always up for talking backend work, products, or anything in between.</p>
+      <p class="contact-mail rv"><a href="mailto:quayyumariyo@gmail.com">quayyumariyo@gmail.com</a></p>
+      <p class="contact-note rv">Based in Lagos, Nigeria — happy to work remote.</p>
+    </section>
+
+  </main>
+
+  <footer class="site-foot">
+    <div class="container">
+      <div class="foot-top">
+        <div>
+          <p class="foot-name">Quayyum Ariyo</p>
+          <p class="foot-role">Software Engineer &amp; Builder.</p>
+        </div>
+        <div class="socials">
+          <a class="soc" href="https://www.linkedin.com/in/quayyum-ariyo-81659337a/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            LinkedIn
+          </a>
+          <a class="soc" href="https://github.com/Quayyum-a" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+            GitHub
+          </a>
+          <a class="soc" href="https://www.instagram.com/quayyum_mustshine/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="2.5" width="19" height="19" rx="5.2"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"/></svg>
+            Instagram
+          </a>
+          <a class="soc" href="https://www.snapchat.com/add/iam_quayyum" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.206.793c.99 0 4.347.276 5.93 3.821.529 1.193.403 3.219.299 4.847l-.003.06c-.012.18-.022.345-.03.51.075.045.203.09.401.09.3-.016.659-.12 1.033-.301.165-.088.344-.104.464-.104.182 0 .359.029.509.09.45.149.734.479.734.838.015.449-.39.839-1.213 1.168-.089.029-.209.075-.344.119-.45.135-1.139.36-1.333.81-.09.224-.061.524.12.868l.015.015c.06.136 1.526 3.475 4.791 4.014.255.044.435.27.42.509 0 .075-.015.149-.045.225-.24.569-1.273.988-3.146 1.271-.059.091-.12.375-.164.57-.029.179-.074.36-.134.553-.076.271-.27.405-.555.405h-.03c-.135 0-.313-.031-.538-.074-.36-.075-.765-.135-1.273-.135-.3 0-.599.015-.913.074-.6.104-1.123.464-1.723.884-.853.599-1.826 1.288-3.294 1.288-.06 0-.119-.015-.18-.015h-.149c-1.468 0-2.427-.689-3.279-1.288-.599-.42-1.107-.779-1.707-.884-.314-.045-.629-.074-.928-.074-.509 0-.914.074-1.288.149-.225.044-.404.074-.539.074-.27 0-.464-.135-.54-.39-.061-.193-.105-.389-.135-.568-.044-.195-.104-.48-.164-.57-1.874-.284-2.906-.689-3.146-1.273-.03-.074-.046-.149-.046-.225-.014-.239.165-.464.42-.509 3.264-.539 4.73-3.879 4.791-4.014l.016-.015c.18-.344.209-.645.119-.868-.193-.45-.883-.675-1.332-.81-.135-.044-.256-.09-.344-.119-.824-.329-1.229-.719-1.214-1.168 0-.359.285-.689.735-.838.149-.061.326-.09.508-.09.119 0 .299.016.463.104.375.18.735.285 1.034.301.197 0 .326-.046.4-.09-.007-.165-.015-.33-.03-.51l-.003-.06c-.104-1.628-.229-3.654.3-4.847 1.582-3.545 4.939-3.821 5.929-3.821"/></svg>
+            Snapchat
+          </a>
+          <a class="soc" href="https://wa.me/2348066025051" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            WhatsApp
+          </a>
+          <a class="soc" href="mailto:quayyumariyo@gmail.com">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            quayyumariyo@gmail.com
+          </a>
+        </div>
+      </div>
+      <p class="foot-meta">© <span id="yearEl">2026</span> Quayyum Ariyo — Lagos, Nigeria</p>
+      <p class="foot-made">built by hand. no frameworks, no trackers.</p>
+    </div>
+  </footer>
+
+</div>
+
+<!-- ============ project pages ============ -->
+
+<section class="proj" id="proj-papyr" hidden>
+  <main class="container proj-in">
+    <a class="back" href="#work"><span class="barr" aria-hidden="true">←</span> all work</a>
+    <header class="proj-head">
+      <span class="pnum">01</span>
+      <h1 class="ptitle">Papyr</h1>
+      <p class="ptag">A notebook for small businesses that keeps the books for you.</p>
+      <div class="pmeta"><span>Product · Engineering</span><span class="status"><span class="dot" aria-hidden="true"></span> in active development</span></div>
+    </header>
+    <div class="proj-body">
+      <h2>The problem</h2>
+      <p>Small businesses in Nigeria keep their daily records in paper notebooks. It&rsquo;s cheap, natural, and works offline — but paper gets lost, can&rsquo;t be searched, and never adds itself up. Spreadsheets fix the math but break the habit: they demand typing, layouts, and a mental model of columns most shopkeepers never signed up for.</p>
+      <h2>The product</h2>
+      <p>Papyr is a notebook that happens to be digital. You write in it the way you already write — with a stylus or mouse, cell by cell — and the software does the bookkeeping: running totals, daily summaries, search, and sync across devices. The records stay yours, even when the network doesn&rsquo;t.</p>
+      <h2>The engineering</h2>
+      <p>Handwriting input on a canvas, with stroke capture and per-cell recognition that turns written entries into numbers and text the ledger can trust. Offline-first storage with a sync queue that reconciles when connectivity returns. Built with low-end Android in mind, where every megabyte and frame matters.</p>
+      <h2>Decisions</h2>
+      <ul class="decisions">
+        <li><span class="dm">Offline-first, always.</span> A ledger that loses a day&rsquo;s records because the network blinked is worse than paper.</li>
+        <li><span class="dm">Handwriting stays the primary input.</span> It&rsquo;s the barrier to entry for the actual user — a trader or shopkeeper, not a spreadsheet person.</li>
+        <li><span class="dm">Low-end Android first.</span> The people keeping paper ledgers are not on flagship phones.</li>
+        <li><span class="dm">The product model decides the stack.</span> Recognition accuracy and sync semantics drive the architecture, not the other way around.</li>
+      </ul>
+      <h2>The hard parts</h2>
+      <p>Stroke recognition fast and light enough for low-end devices. Per-cell recognition accurate enough that the numbers in a ledger can be trusted. A sync model that resolves offline edits without losing or double-counting money. And a writing experience that feels like pen on paper — not a text box with extra steps.</p>
+      <h2>Status</h2>
+      <p>In active development. Designed, architected, and built by me.</p>
+      <details class="eng">
+        <summary><span class="eng-open">show me the engineering →</span><span class="eng-close">hide it ←</span></summary>
+        <div class="eng-grid">
+          <div><span>Architecture</span><p>Next.js app with a service-based sync layer; the ledger itself stays local.</p></div>
+          <div><span>Offline-first</span><p>All writes land locally first; nothing blocks on the network.</p></div>
+          <div><span>Canvas</span><p>Handwriting rendered and captured on an HTML canvas.</p></div>
+          <div><span>Stroke recognition</span><p>Strokes captured and interpreted on-device, within a low-end Android budget.</p></div>
+          <div><span>Per-cell recognition</span><p>Each written cell is recognised into numbers and text the ledger can trust.</p></div>
+          <div><span>Sync queue</span><p>Edits queue locally and reconcile when connectivity returns.</p></div>
+          <div><span>Supabase</span><p>Auth, data, and the sync relay when the device is online.</p></div>
+          <div><span>Next.js</span><p>App shell, routing, and the web client.</p></div>
+        </div>
+      </details>
+      <p class="proj-stack">Stack: Next.js · React · Canvas API · Supabase · IndexedDB · PWA</p>
+    </div>
+    <a class="next" href="#/work/olakz"><span>next — Olakz</span><span class="narw" aria-hidden="true">→</span></a>
+  </main>
+</section>
+
+<section class="proj" id="proj-olakz" hidden>
+  <main class="container proj-in">
+    <a class="back" href="#work"><span class="barr" aria-hidden="true">←</span> all work</a>
+    <header class="proj-head">
+      <span class="pnum">02</span>
+      <h1 class="ptitle">Olakz</h1>
+      <p class="ptag">A multi-service super-app — one codebase, 10+ services.</p>
+      <div class="pmeta"><span>Software Engineer · Mobile</span><span>Olakz Logistics</span><span>Lagos</span><span>10/2025 – 05/2026</span></div>
+    </header>
+    <div class="proj-body">
+      <h2>The problem</h2>
+      <p>A super-app has to carry many different services — ride-hailing, food, marketplace, auto wash and mechanic, spare parts, airtime and data, transport hire — inside one app without collapsing into a pile of disconnected screens. Every service has its own flows, states, and data shapes, and it all has to feel like one product.</p>
+      <h2>My role</h2>
+      <p>I led the mobile frontend build. I designed the application architecture, the UI system, and the navigation structure from the ground up, then carried it through to API integrations, maps, authentication, and global state across every service.</p>
+      <h2>The engineering</h2>
+      <p>React Native with TypeScript. A shared component and UI system so new services don&rsquo;t reinvent the same screens. Redux Toolkit and Zustand for state, React Navigation for structure, Axios against the REST APIs, and Google Maps and AirMap for location flows. Component reuse, code optimization, and strict Git workflows to keep the codebase sane as it grew.</p>
+      <h2>Decisions</h2>
+      <ul class="decisions">
+        <li><span class="dm">One UI system for every service.</span> Consistency is the product — ten services should feel like one app.</li>
+        <li><span class="dm">Navigation designed to scale.</span> Service entry points added without reworking the structure.</li>
+        <li><span class="dm">State service-local by default.</span> Global state only where flows genuinely share it.</li>
+        <li><span class="dm">The frontend and the API negotiate.</span> I worked with backend engineers on endpoint design so the app didn&rsquo;t fight the interface.</li>
+      </ul>
+      <h2>The hard parts</h2>
+      <p>Keeping ten-plus services coherent in a single codebase. Maps and location flows that behave on real devices. Performance on low-end Android. And integration patterns consistent enough that each new service took days, not weeks.</p>
+      <h2>The result</h2>
+      <p>A shipped mobile app for a high-traffic multi-service platform — a production codebase built, structured, and maintained under real engineering workflows.</p>
+      <details class="eng">
+        <summary><span class="eng-open">show me the engineering →</span><span class="eng-close">hide it ←</span></summary>
+        <div class="eng-grid">
+          <div><span>Architecture</span><p>One shared UI system and component library across every service.</p></div>
+          <div><span>State</span><p>Redux Toolkit and Zustand; service state kept local where possible.</p></div>
+          <div><span>Navigation</span><p>React Navigation structured to scale as services were added.</p></div>
+          <div><span>API layer</span><p>Axios against REST endpoints, consistent patterns per service.</p></div>
+          <div><span>Maps</span><p>Google Maps and AirMap for location and ride flows.</p></div>
+          <div><span>Auth</span><p>Session and token flows wired across the app.</p></div>
+          <div><span>Performance</span><p>Component reuse and optimization for low-end Android devices.</p></div>
+          <div><span>Workflow</span><p>Strict Git practices and close pairing with the backend team.</p></div>
+        </div>
+      </details>
+      <p class="proj-stack">Stack: React Native · TypeScript · Redux Toolkit · Zustand · React Navigation · Axios · Google Maps / AirMap · REST APIs · Git</p>
+    </div>
+    <a class="next" href="#/work/semicolon"><span>next — Semicolon</span><span class="narw" aria-hidden="true">→</span></a>
+  </main>
+</section>
+
+<section class="proj" id="proj-semicolon" hidden>
+  <main class="container proj-in">
+    <a class="back" href="#work"><span class="barr" aria-hidden="true">←</span> all work</a>
+    <header class="proj-head">
+      <span class="pnum">03</span>
+      <h1 class="ptitle">Semicolon</h1>
+      <p class="ptag">Banking, rental, and full-stack engineering.</p>
+      <div class="pmeta"><span>Software Engineer · Backend</span><span>Semicolon Africa</span><span>Yaba, Lagos</span><span>2024 – 2025</span></div>
+    </header>
+    <div class="proj-body">
+      <h2>The problem</h2>
+      <p>Banking software runs on trust. Authentication has to be airtight, roles have to be enforced, and money movements have to survive mistakes. I wanted to build systems where that was true by design — not by accident.</p>
+      <h2>My role</h2>
+      <p>Designed and implemented the backend services for three systems: a banking platform, a rental application, and estate management tools.</p>
+      <h2>The engineering</h2>
+      <ul class="plain">
+        <li><span class="dm">Lite Bank Platform</span> — secure REST APIs for core banking workflows on Node.js, NestJS, and PostgreSQL. Role-based access control, authentication for customers and admins, optimized queries, TDD, and CI/CD.</li>
+        <li><span class="dm">Rental Application</span> — Java, Spring Boot, and PostgreSQL. JWT authentication, role-based authorization, booking and order management, payments through Paystack, and notifications through Twilio and EmailJS. Unit and integration tests throughout.</li>
+        <li><span class="dm">Estate Gate Pass and Hotel Management</span> — responsive full-stack applications with secure API integrations.</li>
+      </ul>
+      <h2>Decisions</h2>
+      <ul class="decisions">
+        <li><span class="dm">TDD from the start.</span> The API is the contract, and tests are how it stays honest.</li>
+        <li><span class="dm">Model the data before writing queries.</span> Relational structure that stays fast as tables grow.</li>
+        <li><span class="dm">Optimization is part of the build.</span> Not a cleanup phase at the end.</li>
+      </ul>
+      <h2>The hard parts</h2>
+      <p>Getting auth and role-based access right when the cost of a mistake is someone&rsquo;s money. Payment flows that must never double-charge. Notifications that actually arrive. And CI/CD pipelines that don&rsquo;t fail on Friday.</p>
+      <h2>The result</h2>
+      <p>Production-style systems built under real constraints — security, money, notifications, and the discipline to test all of it.</p>
+      <details class="eng">
+        <summary><span class="eng-open">show me the engineering →</span><span class="eng-close">hide it ←</span></summary>
+        <div class="eng-grid">
+          <div><span>Auth</span><p>JWT flows for customers and administrators.</p></div>
+          <div><span>Authorization</span><p>Role-based access control on sensitive operations.</p></div>
+          <div><span>Data</span><p>PostgreSQL, structured relational modeling, optimized queries.</p></div>
+          <div><span>Payments</span><p>Paystack integration for booking and rental payments.</p></div>
+          <div><span>Notifications</span><p>Twilio and EmailJS for transactional communication.</p></div>
+          <div><span>Quality</span><p>Unit and integration tests as a non-negotiable.</p></div>
+          <div><span>Delivery</span><p>CI/CD pipelines for reliable deployments.</p></div>
+          <div><span>Runtimes</span><p>Node.js / NestJS and Java / Spring Boot side by side.</p></div>
+        </div>
+      </details>
+      <p class="proj-stack">Stack: Node.js · NestJS · Java · Spring Boot · PostgreSQL · MongoDB · JWT · RBAC · Paystack · Twilio · Docker · CI/CD</p>
+    </div>
+    <a class="next" href="#/work/urbanfix"><span>next — UrbanFix</span><span class="narw" aria-hidden="true">→</span></a>
+  </main>
+</section>
+
+<section class="proj" id="proj-urbanfix" hidden>
+  <main class="container proj-in">
+    <a class="back" href="#work"><span class="barr" aria-hidden="true">←</span> all work</a>
+    <header class="proj-head">
+      <span class="pnum">04</span>
+      <h1 class="ptitle">UrbanFix</h1>
+      <p class="ptag">Service and repair, without the guesswork.</p>
+      <div class="pmeta"><span>Product</span><span class="status"><span class="dot" aria-hidden="true"></span> in active design</span></div>
+    </header>
+    <div class="proj-body">
+      <h2>The problem</h2>
+      <p>Getting something fixed in a city is a trust problem. Finding someone competent, agreeing on the work, trusting the price, and knowing the job actually got done — every step has a failure mode. Word of mouth is the only filter most people have.</p>
+      <h2>The product</h2>
+      <p>UrbanFix is a product I&rsquo;m designing around that problem — a platform that makes finding, booking, and tracking a repair or service straightforward: clear scopes of work, agreed prices, and a paper trail instead of handshakes.</p>
+      <h2>The engineering</h2>
+      <p>I&rsquo;m working through the product model before the code: which services live on the platform, how a job flows from request to quote to completion, how payments and disputes behave, and what the data model has to hold for all of it. The design decisions come first; the stack follows from what the model actually demands.</p>
+      <h2>Decisions</h2>
+      <ul class="decisions">
+        <li><span class="dm">The product model comes first.</span> A jobs platform stands or falls on its workflow, not its framework.</li>
+        <li><span class="dm">Trust is the core feature.</span> Verification, transparent quotes, and a clean dispute path are the product.</li>
+        <li><span class="dm">Keep the scope honest.</span> One clear problem at a time, rather than a platform trying to be everything.</li>
+      </ul>
+      <h2>Status</h2>
+      <p>A concept in active design. I&rsquo;m validating the service model and workflows before committing to a stack — the model is the part that&rsquo;s actually hard.</p>
+      <details class="eng">
+        <summary><span class="eng-open">show me the engineering →</span><span class="eng-close">hide it ←</span></summary>
+        <div class="eng-grid">
+          <div><span>Product model</span><p>Service taxonomy and marketplace mechanics designed first.</p></div>
+          <div><span>Workflow</span><p>Request → quote → job → payment → review, mapped end to end.</p></div>
+          <div><span>Trust</span><p>Provider verification and a transparent dispute path.</p></div>
+          <div><span>Data</span><p>Jobs, quotes, payments, and history — the shape the model demands.</p></div>
+          <div><span>Platform</span><p>Stack to be decided by what the model actually needs.</p></div>
+        </div>
+      </details>
+      <p class="proj-stack">Stack: To be decided — the product model comes first.</p>
+    </div>
+    <a class="next" href="#/work/investnaija"><span>next — InvestNaija</span><span class="narw" aria-hidden="true">→</span></a>
+  </main>
+</section>
+
+<section class="proj" id="proj-investnaija" hidden>
+  <main class="container proj-in">
+    <a class="back" href="#work"><span class="barr" aria-hidden="true">←</span> all work</a>
+    <header class="proj-head">
+      <span class="pnum">05</span>
+      <h1 class="ptitle">InvestNaija</h1>
+      <p class="ptag">A Nigerian fintech platform — banking, investments, crypto trading.</p>
+      <div class="pmeta"><span>Designed &amp; developed</span><span>React · TypeScript · Node.js</span></div>
+    </header>
+    <div class="proj-body">
+      <h2>The problem</h2>
+      <p>Financial services in Nigeria are fragmented across apps — banking here, investments there, trading somewhere else — each with its own signup, its own rules, and its own way of losing track of your money.</p>
+      <h2>My role</h2>
+      <p>Designed and developed the platform. I led the React and TypeScript frontend and integrated it with the Node.js APIs.</p>
+      <h2>The engineering</h2>
+      <p>A fintech frontend covering core banking, investments, and crypto trading — account views, transactions, portfolio positions, and the flows that move money between them. Built in React and TypeScript against Node.js services, with authentication and session handling wired end to end.</p>
+      <h2>Decisions</h2>
+      <ul class="decisions">
+        <li><span class="dm">Security and scalability are features.</span> Treated as part of the build, not an afterthought.</li>
+        <li><span class="dm">One design system, separate domains.</span> Banking, investments, and trading share a look without tangling their logic.</li>
+        <li><span class="dm">Validated at scale.</span> Optimized and tested against 500+ simulated users.</li>
+      </ul>
+      <h2>The hard parts</h2>
+      <p>Money movement across three financial domains. Keeping auth and sessions secure without slowing real users down. And structuring the frontend so three product areas could be built in parallel without fighting each other.</p>
+      <h2>The result</h2>
+      <p>A working fintech platform, optimized for security and scalability and validated against 500+ simulated users.</p>
+      <p class="live-link"><a href="https://web-production-c9eeb.up.railway.app" target="_blank" rel="noopener">live app →</a></p>
+      <details class="eng">
+        <summary><span class="eng-open">show me the engineering →</span><span class="eng-close">hide it ←</span></summary>
+        <div class="eng-grid">
+          <div><span>Frontend</span><p>React and TypeScript, one design system across three domains.</p></div>
+          <div><span>APIs</span><p>Node.js services behind the banking, investment, and trading flows.</p></div>
+          <div><span>Domains</span><p>Core banking, investments, and crypto trading in one platform.</p></div>
+          <div><span>Auth</span><p>Secure sessions and authentication wired end to end.</p></div>
+          <div><span>Scalability</span><p>Validated against 500+ simulated users.</p></div>
+          <div><span>Security</span><p>Hardening treated as a feature, not an afterthought.</p></div>
+        </div>
+      </details>
+      <p class="proj-stack">Stack: React · TypeScript · Node.js · REST APIs · Auth</p>
+    </div>
+    <a class="next" href="#/work/papyr"><span>next — Papyr</span><span class="narw" aria-hidden="true">→</span></a>
+  </main>
+</section>
+
+<script src="src/portfolio.js"></script>
