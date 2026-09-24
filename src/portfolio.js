@@ -10,6 +10,7 @@ const PROJ_TITLES = {
   semicolon: "Semicolon — banking, rental & full-stack engineering",
   urbanfix: "UrbanFix — service & repair platform, in the making",
   investnaija: "InvestNaija — Nigerian fintech platform",
+  splitcore: "Splitcore — financial infrastructure for entertainment payments",
 };
 
 /* ------------------------------------------------------------------ */
@@ -84,6 +85,35 @@ function onHashChange() {
 
 window.addEventListener("hashchange", onHashChange);
 applyRoute();
+
+const currentProjects = [
+  {
+    name: "Papyr",
+    note: "a handwriting-first ledger for small businesses",
+    href: "#/work/papyr",
+  },
+  {
+    name: "Splitcore",
+    note: "financial infrastructure for entertainment payments in Nigeria, starting with QR-code digital tipping for nightlife",
+    href: "#/work/splitcore",
+  },
+];
+
+const currentProjectLink = document.querySelector(".cur");
+const currentProjectName = currentProjectLink?.querySelector(".cur-name");
+const currentProjectNote = currentProjectLink?.querySelector(".cur-note");
+let currentProjectIndex = 0;
+
+if (currentProjectLink && currentProjectName && currentProjectNote) {
+  setInterval(() => {
+    currentProjectIndex = (currentProjectIndex + 1) % currentProjects.length;
+    const project = currentProjects[currentProjectIndex];
+    currentProjectLink.href = project.href;
+    currentProjectLink.setAttribute("aria-label", `Currently building ${project.name} — read about the project`);
+    currentProjectName.textContent = project.name;
+    currentProjectNote.textContent = project.note;
+  }, 5000);
+}
 
 /* ------------------------------------------------------------------ */
 /*  mobile nav — Menu / Close                                           */
